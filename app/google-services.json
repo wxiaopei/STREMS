@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "834909263365",
+    "firebase_url": "https://stremsdemo.firebaseio.com",
+    "project_id": "stremsdemo",
+    "storage_bucket": "stremsdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834909263365:android:fdfe85e8ae1b948f",
+        "android_client_info": {
+          "package_name": "wayne.edu.last.strems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834909263365-jqjv3j6vv69h3vkar19cd1oh0kp7eop7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wayne.edu.last.strems",
+            "certificate_hash": "9D62C037A5D66A4B910A5D5A925AFA759094D5A6"
+          }
+        },
+        {
+          "client_id": "834909263365-igad2j311fp429re3gmmv6hvk2e69jhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1CyGxd1GQjZ1olvoHGcRNiarR-zpTwwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834909263365-igad2j311fp429re3gmmv6hvk2e69jhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

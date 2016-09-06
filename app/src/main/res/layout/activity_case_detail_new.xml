@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="wayne.edu.last.strems.CaseDetailActivityNEW">
+
+    <include
+        android:id="@+id/case_author_layout"
+        layout="@layout/include_case_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+    <include
+        android:id="@+id/case_detail_layout"
+        layout="@layout/include_case_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/case_author_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+    <include
+        android:id="@+id/data_graph_layout"
+        layout="@layout/include_data_graph_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/case_detail_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <include
+        android:id="@+id/ekg_graph_layout"
+        layout="@layout/include_ekg_graph_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/data_graph_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
